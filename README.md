@@ -38,8 +38,7 @@ The following libraries are required to run the code:
 Install dependencies with:
 ```bash
 pip install tensorflow numpy pandas matplotlib scikit-learn
-
-
+```
 # Model Architectures
 
 Model #1: Fully connected neural network with two hidden layers.
