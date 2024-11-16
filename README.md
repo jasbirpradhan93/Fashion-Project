@@ -1,48 +1,44 @@
-# Fashion MNIST
-This project implements a series of neural networks to classify images from the Fashion MNIST dataset, which contains 70,000 grayscale images of 10 clothing categories. The models range from simple fully connected networks to more advanced convolutional neural networks (CNNs). The project showcases model training, evaluation, and comparison.
+# Fashion MNIST Classification Project
 
-# Project Overview
-The notebook explores the following topics:
+This repository implements various neural networks to classify images from the [Fashion MNIST dataset](https://github.com/zalandoresearch/fashion-mnist), which contains 70,000 grayscale images across 10 categories of clothing. The project includes model training, evaluation, and comparison, highlighting the evolution from simple neural networks to more advanced convolutional architectures.
 
-# Data preprocessing and normalization
-Model building with TensorFlow and Keras (using different architectures)
-Model evaluation using training and validation loss and accuracy
-Comparison of multiple neural network architectures, including:
-Simple fully connected model
-Convolutional Neural Networks (CNNs) with increasing depth and complexity
-CNN with dropout layers and batch normalization for improved accuracy
-Visualization of performance metrics and misclassified samples
-Plotting a confusion matrix and visual comparison of model accuracies
+## Project Overview
 
-# Dataset
-The Fashion MNIST dataset contains 60,000 training images and 10,000 test images, each of size 28x28 pixels and labeled in one of 10 categories:
-T-shirt/top
-Trouser
-Pullover
-Dress
-Coat
-Sandal
-Shirt
-Sneaker
-Bag
-Ankle boot
-Requirements
-Python 3.x
-TensorFlow and Keras
-Matplotlib
-Numpy
-Scikit-learn
-Jupyter or Google Colab environment
-Install the necessary libraries using:
+This project includes the following components:
+- **Data Preprocessing**: Normalization and train-validation splitting
+- **Model Building**: Implementing models with increasing complexity
+- **Model Evaluation**: Using accuracy, loss metrics, and confusion matrices
+- **Comparison**: Evaluating multiple architectures and visualizing their performance
 
-# bash Copy code
+## Dataset
+
+The Fashion MNIST dataset includes:
+- **60,000 training images** and **10,000 test images**.
+- Each image is 28x28 pixels and belongs to one of the following categories:
+  - T-shirt/top
+  - Trouser
+  - Pullover
+  - Dress
+  - Coat
+  - Sandal
+  - Shirt
+  - Sneaker
+  - Bag
+  - Ankle boot
+
+## Requirements
+
+The following libraries are required to run the code:
+- `Python 3.x`
+- `TensorFlow` and `Keras`
+- `Matplotlib`
+- `NumPy`
+- `Scikit-learn`
+
+Install dependencies with:
+```bash
 pip install tensorflow numpy pandas matplotlib scikit-learn
-Notebook Structure
 
-# Data Loading and Preprocessing
-Load the Fashion MNIST dataset.
-Normalize the pixel values to be between 0 and 1.
-Split the training data into training and validation sets.
 
 # Model Architectures
 
