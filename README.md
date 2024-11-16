@@ -1,6 +1,6 @@
 This project implements a series of neural networks to classify images from the Fashion MNIST dataset, which contains 70,000 grayscale images of 10 clothing categories. The models range from simple fully connected networks to more advanced convolutional neural networks (CNNs). The project showcases model training, evaluation, and comparison.
 
-Project Overview
+# Project Overview
 The notebook explores the following topics:
 
 Data preprocessing and normalization
